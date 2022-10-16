@@ -1,0 +1,5 @@
+<?php
+    $n = fgets(STDIN);
+
+    echo $n;
+?>
