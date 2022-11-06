@@ -4,7 +4,7 @@ function binary_branch($array, $serch){
     $left = 0;
     $right = count($array);
     while($left < $right){
-        $mid = ($left+$right) / 2;
+        $mid = (int)(($left+$right) / 2);
         if($array[$mid] <= $serch){
             $left = $mid + 1;
         }else{
