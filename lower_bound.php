@@ -4,7 +4,7 @@ function binary_branch($a, $val){
     $left = 0;
     $right = count($a);
    while ($right > $left) {
-        $mid = ($left + $right) / 2;
+        $mid = (int)(($left + $right) / 2);
         if ($a[$mid] < $val) { 
             $left = $mid + 1; //中間値が一定の値にちかづいていって、+1が条件を抜ける原因になる
             } else {
